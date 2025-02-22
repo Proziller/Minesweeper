@@ -1,3 +1,3 @@
 import minesweeper_lib as minesweeper
-game = minesweeper.minesweeper
-game.generate()
+game = minesweeper.Minesweeper(size=25, mines=100)
+game.setup_gui()
